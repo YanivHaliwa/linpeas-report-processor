@@ -7,6 +7,10 @@ import argparse
 
 DEBUG = False
 
+
+TEST_API_TOKEN = "test token"     
+
+
 def remove_ansi_codes(text):
     """Remove ANSI escape codes from text"""
     # Fixed: Added timeout protection and simpler pattern
