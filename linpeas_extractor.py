@@ -7,8 +7,6 @@ import argparse
 
 DEBUG = False
 
-openai_api = "sk-proj-test"
-
 def remove_ansi_codes(text):
     """Remove ANSI escape codes from text"""
     # Fixed: Added timeout protection and simpler pattern
