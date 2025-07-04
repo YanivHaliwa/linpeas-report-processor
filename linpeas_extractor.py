@@ -7,10 +7,6 @@ import argparse
 
 DEBUG = False
 
-
-open_API = "sdcsdcsdcsdcsdc"     
-
-
 def remove_ansi_codes(text):
     """Remove ANSI escape codes from text"""
     # Fixed: Added timeout protection and simpler pattern
